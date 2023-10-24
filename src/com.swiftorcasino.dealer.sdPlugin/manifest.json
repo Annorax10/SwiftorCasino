@@ -1,0 +1,134 @@
+{
+  	"Profiles": [
+		{
+			"Name": "A1_3CP", 
+			"ReadOnly": true,
+			"DeviceType": 2
+		}
+		{
+			"Name": "A1_4COP", 
+			"ReadOnly": true,
+			"DeviceType": 2
+		}
+		{
+			"Name": "A1_BJLimitChg", 
+			"ReadOnly": true,
+			"DeviceType": 2
+		}
+		{
+			"Name": "A1_BJOpenMenu", 
+			"ReadOnly": true,
+			"DeviceType": 2
+		}
+		{
+			"Name": "A1_Caribbean", 
+			"ReadOnly": true,
+			"DeviceType": 2
+		}
+		{
+			"Name": "A1_FrescaPlay", 
+			"ReadOnly": true,
+			"DeviceType": 2
+		}
+		{
+			"Name": "A1_MSS", 
+			"ReadOnly": true,
+			"DeviceType": 2
+		}
+		{
+			"Name": "A1_OFCP", 
+			"ReadOnly": true,
+			"DeviceType": 2
+		}
+		{
+			"Name": "A1_PGP", 
+			"ReadOnly": true,
+			"DeviceType": 2
+		}
+		{
+			"Name": "A1_PGPLimitMenu", 
+			"ReadOnly": true,
+			"DeviceType": 2
+		}
+		{
+			"Name": "A1_RBJ", 
+			"ReadOnly": true,
+			"DeviceType": 2
+		}
+		{
+			"Name": "A1_SCGameMenu", 
+			"ReadOnly": true,
+			"DeviceType": 2
+		}
+		{
+			"Name": "A1_UTH", 
+			"ReadOnly": true,
+			"DeviceType": 2
+		}
+		{
+			"Name": "A2_Bacc", 
+			"ReadOnly": true,
+			"DeviceType": 2
+		}
+		{
+			"Name": "A3_ChaosBJ", 
+			"ReadOnly": true,
+			"DeviceType": 2
+		}
+		{
+			"Name": "A3_Marbles", 
+			"ReadOnly": true,
+			"DeviceType": 2
+		}
+		{
+			"Name": "A3_MiniS_Freebet", 
+			"ReadOnly": true,
+			"DeviceType": 2
+		}
+		{
+			"Name": "A3_RBJ_Sellout", 
+			"ReadOnly": true,
+			"DeviceType": 2
+		}
+		{
+			"Name": "A3_SSOPStream", 
+			"ReadOnly": true,
+			"DeviceType": 2
+		}
+		{
+			"Name": "A3_War", 
+			"ReadOnly": true,
+			"DeviceType": 2
+		}
+		{
+			"Name": "A4_RBJ2xTrash", 
+			"ReadOnly": true,
+			"DeviceType": 2
+		}
+		{
+			"Name": "A4_RBJAllTrash", 
+			"ReadOnly": true,
+			"DeviceType": 2
+		}
+  "SDKVersion": 2,
+  "Author": "Annorax10", 
+  "Description": "SwiftorCasino Streamdeck Control System 4.0", 
+  "Name": "SC Dealer", 
+  "Icon": "card", 
+  "URL": "https://swiftorcasino.com", 
+  "Version": "4.0",
+  "OS": [
+    {
+        "Platform": "mac", 
+        "MinimumVersion" : "10.11"
+    },
+    {
+        "Platform": "windows", 
+        "MinimumVersion" : "10"
+    }
+  ],
+  "Software": 
+    {
+        "MinimumVersion" : "4.3"
+    }
+}
