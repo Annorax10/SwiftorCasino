@@ -1,49 +1,47 @@
 {
-	"SDKVersion": 2,
-	"Author": "Elgato Systems",
-	"CodePath": "app.html",
-	"Description": "Example description",
-	"Name": "Stream Deck Template",
-	"Icon": "actions/template/assets/action",
-	"URL": "https://www.elgato.com/en/gaming/stream-deck",
-	"Version": "1.0.2",
-	"Software": {
-		"MinimumVersion": "5.0"
-	},
-	"OS": [
+  	"Profiles": [
 		{
-			"Platform": "mac",
-			"MinimumVersion": "10.11"
+			"Name": "Memory", 
+			"ReadOnly": true,
+			"DeviceType": 0
 		},
 		{
-			"Platform": "windows",
-			"MinimumVersion": "10"
-		}
-	],
-	"Category": "Template Plugin",
-	"CategoryIcon": "actions/template/assets/actionimage",
-	"Actions": [
+			"Name": "MemoryMini", 
+			"ReadOnly": true,
+			"DeviceType": 1
+		},
 		{
-			"Icon": "actions/template/assets/actionimage",
-			"Name": "Example Action",
-			"Controllers": ["Keypad", "Encoder"],
-			"Encoder": {
-				"layout": "$B1",
-				"TriggerDescription": {
-					"Rotate": "Describe the rotation",
-					"Push": "Describe the encoder push",
-					"Touch": "Describe the touch",
-					"LongTouch": "Describe the long touch"
-				}
-			},
-			"States": [
-				{
-					"Image": "actions/template/assets/action"
-				}
-			],
-			"Tooltip": "This is an example tooltip",
-			"UUID": "com.elgato.template.action",
-			"PropertyInspectorPath": "actions/template/property-inspector/inspector.html"
+			"Name": "MemoryXL", 
+			"ReadOnly": true,
+			"DeviceType": 2
+		},
+		{
+			"Name": "Memory", 
+			"ReadOnly": true,
+			"DeviceType": 3
 		}
-	]
+  ],  
+  "SDKVersion": 2,
+  "Author": "Elgato", 
+  "CodePathWin": "memorygame.exe", 
+  "CodePathMac": "MemoryGame", 
+  "Description": "Keep your brain in shape with this memory card game.", 
+  "Name": "Memory Game", 
+  "Icon": "card", 
+  "URL": "https://www.elgato.com/gaming/stream-deck", 
+  "Version": "1.4",
+  "OS": [
+    {
+        "Platform": "mac", 
+        "MinimumVersion" : "10.11"
+    },
+    {
+        "Platform": "windows", 
+        "MinimumVersion" : "10"
+    }
+  ],
+  "Software": 
+    {
+        "MinimumVersion" : "4.3"
+    }
 }
