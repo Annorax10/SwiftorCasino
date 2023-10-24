@@ -1,6 +1,8 @@
               - name: Checkout
                 uses: actions/checkout@v4.1.1
-                          
+                with:
+                repository: com.SwiftorCasino
+                
               - name: Stream Deck Distribution Tool
                 uses: AdamCarballo/streamdeck-distribution-tool@v1.0.2
                 with: input: com.SwiftorCasino.dealer.sdPlugin
