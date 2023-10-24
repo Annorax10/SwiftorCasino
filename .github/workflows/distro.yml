@@ -1,0 +1,4 @@
+              - name: Stream Deck Distribution Tool
+                uses: AdamCarballo/streamdeck-distribution-tool@v1.0.2
+                input: com.swiftorcasino.dealer.sdPlugin
+                output: ../release1
